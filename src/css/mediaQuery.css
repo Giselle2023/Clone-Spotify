@@ -1,0 +1,187 @@
+@media(max-width:1442px) {
+    main {
+        left: 20.1rem;
+    }
+
+    .playlist {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 2rem;
+    }
+
+    .playlist-style {
+        width: 240px;
+        height: 220px;
+
+    }
+
+    .playlist-style>img {
+        top: 1rem;
+        left: 6.6rem;
+        width: 140px;
+    }
+
+    .playlist-style-text {
+        font-size: 15pt;
+        font-weight: 600;
+        padding: 1.5rem;
+    }
+}
+
+@media(max-width:1380px) {
+    main {
+        left: 18rem;
+    }
+
+    .playlist-style {
+        width: 230px;
+    }
+
+    .playlist-style>img {
+        top: 1.2rem;
+        left: 6.5rem;
+        width: 130px;
+    }
+
+    #mensage-day {
+        font-size: 21pt;
+        padding: 0 2.5rem;
+    }
+}
+
+
+@media(max-width:1204px) {
+    .sidebar {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        left: 0;
+    }
+
+    .playlist {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 2rem;
+
+    }
+
+    .playlist-style {
+        width: 260px;
+        height: 240px;
+
+    }
+
+    .playlist-style>img {
+        top: .6rem;
+        left: 7.6rem;
+        width: 148px;
+    }
+}
+
+@media(max-width:1025px) {
+
+    .playlist-style {
+        width: 220px;
+        height: 200px;
+
+    }
+
+    .playlist-style>img {
+        left: 6.5rem;
+        width: 120px;
+    }
+
+    footer h3 {
+        font-size: 11pt;
+        font-weight: 600;
+    }
+
+    footer p {
+        font-size: 10pt;
+    }
+
+    .playlist-style-text {
+        font-size: 13pt;
+        padding: 1.5rem;
+    }
+}
+
+/*tablet*/
+@media(max-width:770px) {
+    .search {
+        width: 270px;
+    }
+    .playlist{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .playlist-style {
+        width: 220px;
+        height: 200px;
+
+    }
+
+    footer p {
+        font-size: 8pt;
+    }
+}
+
+/*mobile*/
+@media(max-width:426px) {
+    .seta {
+        display: none;
+    }
+
+    #subscribe {
+        display: none;
+    }
+
+    .search {
+        width: 230px;
+    }
+
+    #login {
+        padding: 19px 5px;
+    }
+
+    .playlist {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .playlist-style {
+        width: 180px;
+        height: 150px;
+    }
+
+    .playlist-style>img {
+        top: .2rem;
+        left: 5rem;
+        width: 100px;
+    }
+
+    .playlist-style-text {
+        font-size: 11.2pt;
+        font-weight: 500;
+        padding: 1rem;
+    }
+
+    footer {
+        padding: 8px;
+        justify-content: end;
+
+    }
+
+    footer div {
+        display: none;
+    }
+
+    footer button {
+        margin-right: 1.5rem;
+        padding: 1rem;
+    }
+
+    .mensage-day {
+        margin: 0;
+        p
+    }
+}
+
